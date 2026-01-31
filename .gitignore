@@ -1,10 +1,11 @@
-# Ignore trained ML models
+# Models / artifacts
 models/*.joblib
+models/*.pkl
+models/*.h5
+models/*.pt
+models/*.onnx
 
-# Ignore cache
+# Kaggle output / temp
+*.ipynb_checkpoints
 __pycache__/
-*.pyc
-
-# Ignore OS files
 .DS_Store
-Thumbs.db
